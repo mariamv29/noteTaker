@@ -5,7 +5,7 @@ const notes = require("./Develop /db/db.json")
 
 
 app.get('/api/notes', (req, res) => {
-    res.send('Hello!');
+    res.send(notes);
 });
 
 

@@ -15,7 +15,7 @@ const notes = require("./Develop/db/db.json");
 
 // Sets up the Express app to handle data parsing
 
-app.use(express.static("public"));
+app.use(express.static("Develop/public"));
 
 // app.use('/api', apiRoutes);
 app.use("/api", apiRoutes);

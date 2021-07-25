@@ -10,6 +10,10 @@ router.get("/notes", (req, res) => {
 router.post("/notes", (req, res) => {
   //req.body is where incoming content will be
   console.log(req.body);
+  let newNote = req.body;
+  notes.push(newNote);
+  notesArray.push(note);
+  createNewNote();
   req.body.id = notes.length.toString();
   console.log(req.body.text);
   // if any data is entered incorrect, send 400 error back

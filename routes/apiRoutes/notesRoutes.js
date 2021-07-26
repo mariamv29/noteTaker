@@ -26,10 +26,8 @@ router.post("/notes", (req, res) => {
   }
 });
 
-
 // create post routes to delete data
 router.delete("/notes/:id", (req, res) => {
-
   deleteNotes(req.params.id, notes);
   res.json(true);
 });

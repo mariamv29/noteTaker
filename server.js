@@ -11,11 +11,11 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const notes = require("./Develop/db/db.json");
+const notes = require("./main/db/db.json");
 
 // Sets up the Express app to handle data parsing
 
-app.use(express.static("Develop/public"));
+app.use(express.static("main/public"));
 
 // app.use('/api', apiRoutes);
 app.use("/api", apiRoutes);

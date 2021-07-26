@@ -3,8 +3,8 @@ const {
   createNewNote,
   validateNote,
   deleteNotes,
-} = require("../../Develop/lib/notes");
-const notes = require("../../Develop/db/db.json");
+} = require("../../main/lib/notes");
+const notes = require("../../main/db/db.json");
 
 router.get("/notes", (req, res) => {
   res.send(notes);

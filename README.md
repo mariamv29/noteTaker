@@ -4,7 +4,7 @@
 ## Description 
 Note Taker app build to create, save and delete apps using express.js. 
 
-![screenshot](../../assets/images/photo.jpg)
+![screenshot](./main/images/photo.jpg)
 
 ## User Story 
 AS A small business owner

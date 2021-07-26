@@ -25,5 +25,19 @@ function createNewNote(body, notesArray) {
     return true;
   }
   
+  function deleteNotes(id, notesArray) {
+    for(let  i = 0; i < notesArray.length; i++) {
+      const note = notesArray [i];
+
+      if (note.id == id) {
+        notesArray.splice(i, 1);
+        fs.writeFileSync(
+          path.join(__dirname, "../db/db.json"),
+          JSON.stringify(notesArray, null, 2)
+        );
+        break;
+      }
+    }
+  }
   
-  module.exports = {createNewNote, validateNote};
+  module.exports = {createNewNote, validateNote, deleteNotes};

@@ -2,9 +2,12 @@
 
 
 ## Description 
-Note Taker app build to create, save and delete apps using express.js. 
+Note Taker is an app build to create, save and delete notes. This app is built using Express.js for the backend 
 
 ![screenshot](./main/images/photo.jpg)
+
+## Deployment 
+[Link](https://whispering-oasis-95311.herokuapp.com)
 
 ## User Story 
 AS A small business owner

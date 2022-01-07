@@ -2,7 +2,7 @@
 
 
 ## Description 
-Note Taker is an app build to create, save and delete notes. This app is built using Express.js for the backend 
+Note Taker is an app build to create, save and delete notes. The backend of this app is built using Express.js. 
 
 ![screenshot](./main/images/photo.jpg)
 
